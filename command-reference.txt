@@ -1,0 +1,11 @@
+1.cd 
+2.touch - adds files
+3.git init - creates repository
+4. git --config global user.name 'enter your name' - creates username
+5. git --config global user.email  'enter your email' - signs your email
+6. git add filename.extension- adds file to the staging area.    
+    git add *.html - adds any html file   
+    git add . - adds any file to the staging area.
+7. git status - shows which files are tracked/untracked
+8. git rm --cached filename.extension - used to unstage
+ * anytime you modify a file you have to add the file(6.).
