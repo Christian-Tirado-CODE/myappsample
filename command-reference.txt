@@ -8,4 +8,12 @@
     git add . - adds any file to the staging area.
 7. git status - shows which files are tracked/untracked
 8. git rm --cached filename.extension - used to unstage
- * anytime you modify a file you have to add the file(6.).
+9. git commit  
+   git commit -m 'add your comment here' - this skips the editing stage.
+10. touch .gitignore - files we don't want to include in our repository.
+11.   git branch branchname - make a branch of the master branch.
+      git checkout branchname - access the branch. 
+
+* anytime you modify a file you have to add the file(6.).
+* to commit: press i and enter, uncomment initial commit, press escape and type :wq
+* gitignore - create a file called gitignore and type the filename you don't want to include in this file. you can add folders too, syntax: /foldername.
